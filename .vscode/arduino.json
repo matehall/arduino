@@ -1,3 +1,6 @@
 {
-    "port": "COM3"
+    "board": "arduino:avr:pro",
+    "port": "COM5",
+    "sketch": "DallasTemperatureSensor_template\\DallasTemperatureSensor_template.ino",
+    "configuration": "cpu=8MHzatmega328"
 }

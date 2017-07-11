@@ -4,7 +4,7 @@
 
 /*-----( Declare Constants )-----*/
 #define ANALOG_SENSOR_PIN  A0 
-#define DIGITAL_SENSOR_PIN 3
+#define DIGITAL_SENSOR_PIN 31
 #define LEDPIN    13  // The onboard LED
 
 /*-----( Declare Variables )-----*/
