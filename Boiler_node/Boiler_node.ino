@@ -27,7 +27,7 @@ void setup()
 {
 	sensors.begin();
 	gw.begin();
-	gw.sendSketchInfo("Boiler", "1.0");
+	gw.sendSketchInfo("Garage", "1.0");
 	numSensors = sensors.getDeviceCount();
 
 	for (int i = 0; i < numSensors && i < MAX_ATTACHED_DS18B20; i++){

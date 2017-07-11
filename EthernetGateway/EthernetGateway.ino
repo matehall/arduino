@@ -161,7 +161,7 @@ void setup()
 
 
 void loop() {
-  gw.process();  
+  //gw.process();  
   
   checkButtonTriggeredInclusion();
   checkInclusionFinished();
